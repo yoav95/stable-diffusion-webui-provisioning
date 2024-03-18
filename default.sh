@@ -36,13 +36,16 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors" #base sdxl
     # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor&size=pruned&fp=fp32"
+    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor&size=pruned&fp=fp16" #epicphotogasm 
+    "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
+    
 )
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     "https://civitai.com/api/download/models/396157?type=Model&format=SafeTensor" #Styles for Pony Diffusion V6 XL
     "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors" #lora controlnet ipadapter
+    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors" #lora ipadapter sdxl
 )
 
 VAE_MODELS=(
@@ -75,6 +78,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sd15.bin" #ipadapter v1.5 faceplus2
+    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sdxl.bin" #ipadapter sdxl faceplus2
 )
 
 
