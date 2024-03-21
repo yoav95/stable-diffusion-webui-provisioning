@@ -39,13 +39,16 @@ CHECKPOINT_MODELS=(
     # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epicphotogasm 
     # "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
     #V1.5 MODELS
-    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epiCPhotoGasm
+    # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epiCPhotoGasm
     "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor" #CyberRealstic v4.2
-    "https://drive.google.com/uc?export=download&id=18tX9wVXnroV9NoqszwgLZd4XgDK03DBR" #picxreal
+    # "https://drive.google.com/uc?export=download&id=18tX9wVXnroV9NoqszwgLZd4XgDK03DBR" #picxreal
+    "https://civitai.com/api/download/models/250344" #A-Zovya RPG Artist Tools
     
     #SDXL MODELS
     # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
-    "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
+    # "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
+    "https://civitai.com/api/download/models/154504" #SahastraKoti XL
+    
     
 )
 
