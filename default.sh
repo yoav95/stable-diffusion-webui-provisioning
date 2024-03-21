@@ -41,6 +41,7 @@ CHECKPOINT_MODELS=(
     #V1.5 MODELS
     "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epiCPhotoGasm
     "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor" #CyberRealstic v4.2
+    "https://drive.google.com/uc?export=download&id=18tX9wVXnroV9NoqszwgLZd4XgDK03DBR" #picxreal
     
     #SDXL MODELS
     # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
