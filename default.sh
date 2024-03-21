@@ -19,11 +19,11 @@ PIP_PACKAGES=(
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
-    "https://github.com/d8ahazard/sd_dreambooth_extension"
+    # "https://github.com/d8ahazard/sd_dreambooth_extension"
     "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
     "https://github.com/ototadana/sd-face-editor"
-    "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
+    # "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/fkunn1326/openpose-editor"
@@ -35,10 +35,16 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors" #base sdxl
-    "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epicphotogasm 
-    "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
+    # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epicphotogasm 
+    # "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
+    #V1.5 MODELS
+    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor&size=pruned&fp=fp16" #epiCPhotoGasm
+    "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor&size=pruned&fp=fp32" #CyberRealstic v4.2
+    
+    #SDXL MODELS
+    "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
+    "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
     
 )
 
