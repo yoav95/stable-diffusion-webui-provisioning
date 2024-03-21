@@ -22,11 +22,11 @@ EXTENSIONS=(
     # "https://github.com/d8ahazard/sd_dreambooth_extension"
     "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
-    "https://github.com/ototadana/sd-face-editor"
+    # "https://github.com/ototadana/sd-face-editor"
     # "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/fkunn1326/openpose-editor"
+    # "https://github.com/fkunn1326/openpose-editor"
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/ahgsql/StyleSelectorXL"
 )
@@ -39,11 +39,11 @@ CHECKPOINT_MODELS=(
     # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epicphotogasm 
     # "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
     #V1.5 MODELS
-    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor&size=pruned&fp=fp16" #epiCPhotoGasm
-    "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor&size=pruned&fp=fp32" #CyberRealstic v4.2
+    "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epiCPhotoGasm
+    "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor" #CyberRealstic v4.2
     
     #SDXL MODELS
-    "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
+    # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
     "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
     
 )
@@ -51,8 +51,8 @@ CHECKPOINT_MODELS=(
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     "https://civitai.com/api/download/models/396157?type=Model&format=SafeTensor" #Styles for Pony Diffusion V6 XL
-    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors" #lora controlnet ipadapter
-    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors" #lora ipadapter sdxl
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors?download=true" #lora controlnet ipadapter
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors?download=true" #lora ipadapter sdxl
 )
 
 VAE_MODELS=(
@@ -84,8 +84,8 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
-    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sd15.bin" #ipadapter v1.5 faceplus2
-    "https://huggingface.co/h94/IP-Adapter-FaceID/blob/main/ip-adapter-faceid-plusv2_sdxl.bin" #ipadapter sdxl faceplus2
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin?download=true" #ipadapter faceplusv2 sdxl.bin
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin?download=true" #ipadapter faceplusv2 sd1.5.bin
 )
 
 
