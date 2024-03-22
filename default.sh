@@ -32,18 +32,8 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    # "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors" #base sdxl
-    # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epicphotogasm 
-    # "https://civitai.com/api/download/models/272376?type=Model&format=SafeTensor" #pics_real - 1.0
     #V1.5 MODELS
-    # "https://civitai.com/api/download/models/363565?type=Model&format=SafeTensor" #epiCPhotoGasm
-    # "https://civitai.com/api/download/models/372799?type=Model&format=SafeTensor" #CyberRealstic v4.2
-    # "https://drive.google.com/uc?export=download&id=18tX9wVXnroV9NoqszwgLZd4XgDK03DBR" #picxreal
-    # "https://civitai.com/api/download/models/250344" #A-Zovya RPG Artist Tools
-    
+    " https://drive.google.com/uc?export=download&id=1BUo1Y_HrycAdthqzgADOnugq03eNKvzH" DreamShaperV8
     #SDXL MODELS
     # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
     # "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
@@ -53,8 +43,6 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
-    # "https://civitai.com/api/download/models/396157?type=Model&format=SafeTensor" #Styles for Pony Diffusion V6 XL
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors?download=true" #lora controlnet ipadapter
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors?download=true" #lora ipadapter sdxl
 )
@@ -87,9 +75,11 @@ CONTROLNET_MODELS=(
     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
+    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin?download=true" #ipadapter faceplusv2 sdxl.bin
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin?download=true" #ipadapter faceplusv2 sd1.5.bin
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.bin?download=true" #ip-adapter-plus_sd15.bin
+
 )
 
 
