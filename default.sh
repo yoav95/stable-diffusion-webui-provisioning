@@ -34,7 +34,8 @@ EXTENSIONS=(
 
 CHECKPOINT_MODELS=(
     #V1.5 MODELS
-    " https://drive.google.com/uc?export=download&id=1BUo1Y_HrycAdthqzgADOnugq03eNKvzH" DreamShaperV8
+    # " https://drive.google.com/uc?export=download&id=1BUo1Y_HrycAdthqzgADOnugq03eNKvzH" DreamShaperV8
+    "https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor"
     #SDXL MODELS
     # "https://civitai.com/api/download/models/357609" #Juggernaut XL lightning
     # "https://civitai.com/api/download/models/351306" #DreamShaperXL dv2.1 turbo DPM++ SDE 
