@@ -29,6 +29,7 @@ EXTENSIONS=(
     # "https://github.com/fkunn1326/openpose-editor"
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/ahgsql/StyleSelectorXL"
+    "https://github.com/alemelis/sd-webui-ar" ratio selector
 )
 
 CHECKPOINT_MODELS=(
