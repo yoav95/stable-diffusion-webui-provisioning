@@ -79,6 +79,7 @@ CONTROLNET_MODELS=(
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin?download=true" #ipadapter faceplusv2 sdxl.bin
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin?download=true" #ipadapter faceplusv2 sd1.5.bin
     "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.bin?download=true" #ip-adapter-plus_sd15.bin
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.bin?download=true" #ip adapter-sd15.bin
 
 )
 
