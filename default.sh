@@ -30,7 +30,7 @@ EXTENSIONS=(
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/ahgsql/StyleSelectorXL"
     "https://github.com/alemelis/sd-webui-ar" #ratio selector
-    "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111?tab=readme-ov-file#region-prompt-control" #regional prompt control
+    "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111" #regional prompt control multidiffusion
 )
 
 CHECKPOINT_MODELS=(
